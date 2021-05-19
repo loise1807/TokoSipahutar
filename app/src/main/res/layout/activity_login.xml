@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    style="@style/loginParent">
+    <ScrollView
+        style="@style/parent">
+
+        <RelativeLayout
+            style="@style/parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="216dp"
+                android:layout_alignParentTop="true"
+                android:weightSum="12">
+
+                <LinearLayout
+                    style="@style/parent"
+                    android:layout_weight="3"
+                    android:background="@drawable/login_shape_bk"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/parent"
+                        android:background="@drawable/ic_login_bk"
+                        android:contentDescription="login background" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp">
+
+
+                <ImageView
+                    style="@style/headerText"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo"
+                    android:scaleType="fitXY"/>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    style="@style/loginCard"
+                    android:layout_height="403dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/loginViewsMargin"
+                    android:layout_marginBottom="@dimen/loginViewsMargin"
+                    android:background="@color/whiteCardColor"
+                    android:elevation="5dp">
+
+                    <LinearLayout
+                        style="@style/linearParent"
+                        android:layout_gravity="center"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="100dp"
+                        android:paddingRight="20dp"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="111dp">
+
+                        <LinearLayout
+                            android:id="@+id/textInputUsername"
+                            style="@style/parent"
+                            android:layout_marginTop="@dimen/loginViewsMargin">
+
+                            <EditText
+                                android:id="@+id/etUsername"
+                                style="@style/modifiedEditText"
+                                android:hint="Username"
+                                android:maxLines="1"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/textInputPassword"
+                            style="@style/parent"
+                            android:layout_marginTop="@dimen/loginViewsMargin"
+                            android:orientation="horizontal">
+
+                        </LinearLayout>
+
+
+                        <EditText
+                            android:id="@+id/etPassword"
+                            style="@style/modifiedEditText"
+                            android:hint="@string/login_password_hint"
+                            android:inputType="textPassword"
+                            android:maxLines="1"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:id="@+id/btnLogin"
+                            style="@style/loginButton"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/loginViewsMargin"
+                            android:text="Login" />
+
+                        <TextView
+                            android:id="@+id/tvCreateAccount"
+                            style="@style/parent"
+                            android:layout_marginTop="@dimen/loginViewsMargin"
+                            android:gravity="center_horizontal"
+                            android:onClick="viewRegisterClicked"
+                            android:text="@string/login_signup_hint"
+                            android:textAlignment="center"
+                            android:textColor="@color/primaryTextColor"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <TextView
+
+                        style="@style/headerTextPrimary"
+                        android:paddingTop="45dp"
+                        android:text="Login"
+                        android:textSize="30sp"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="25dp"
+                        tools:layout_editor_absoluteY="70dp" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

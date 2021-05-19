@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splash_2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <View
+        android:id="@+id/rectangle"
+        android:layout_width="430dp"
+        android:layout_height="777.5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-24dp"
+        android:background="@drawable/rectangle" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="639dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/splash_2" />
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sipahutar Store</string>
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_alamat_hint">Alamat</string>
+    <string name="login_no_tlp_hint">Telepon, eg 81263224789</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+
+</resources>
