@@ -1,0 +1,14 @@
+{
+    "kode": 1,
+    "pesan": "Tambah Data Berhasil"
+}
+
+{
+    "kode": 1,
+    "pesan": "Hapus Data Berhasil"
+}
+
+{
+    "kode": 1,
+    "pesan": "Data Berhasil di Ubah"
+}

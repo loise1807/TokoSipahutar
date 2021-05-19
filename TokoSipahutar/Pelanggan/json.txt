@@ -1,0 +1,24 @@
+{
+    "status": true,
+    "message": "Akun berhasil didaftar",
+    "data": {
+        "nama": "Dian Sitanggang",
+        "username": "dian",
+        "jenis_kelamin": "Wanita",
+        "alamat": "Siantar",
+        "no_tlp": "8123632234"
+    }
+}
+
+{
+    "status": true,
+    "message": "Login Berhasil",
+    "data": {
+        "id_pembeli": "2",
+        "nama": "Loise Lumban Raja",
+        "username": "loise",
+        "jenis_kelamin": "Pria",
+        "alamat": "Sidikalang",
+        "no_tlp": "81263224789"
+    }
+}
